@@ -1,5 +1,5 @@
 variable "pm_api_url" {
-    default = "https://proxmox.esig.com.br:8006/api2/json"
+    default = "https://url_proxmox:8006/api2/json"
 }
 
 variable "pm_user" {
