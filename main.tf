@@ -18,7 +18,7 @@ resource "proxmox_vm_qemu" "server-01" {
       id            = 0
       size          = 20
       type          = "scsi"
-      storage       = "data2"
+      storage       = "local-lvm"
       storage_type  = "lvm"
       iothread      = true
   }
