@@ -8,5 +8,5 @@ variable "pm_user" {
 }
 
 variable "pm_password" {
-    default = "esig@2018!"
+    default = "****"
 }
